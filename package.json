@@ -1,0 +1,27 @@
+{
+  "name": "Doto-Addiction-Helper-Bot",
+  "version": "1.0.0",
+  "description": "bot to help with doto addiction",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "enmap": "^5.7.1",
+    "dotenv": "^8.2.0",
+    "discord.js": "^12.3.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/relapse-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
