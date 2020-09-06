@@ -1,2 +1,3 @@
-# dotorelapsebot
-discord bot for doto relapse
+# Doto Addiction
+
+xd
