@@ -5,5 +5,4 @@ module.exports = async client => {
     // dotobot is playing !help
     // client.user.setActivity(`${client.config.prefix}help`, {type: "PLAYING"});
   client.user.setActivity(`${client.config.prefix}dotobo`, {type: "PLAYING"});
-  
   };
