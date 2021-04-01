@@ -14,6 +14,6 @@ exports.run = (client, message, args) => {
   if (d>0){
     clean = `${d}d ` + clean
   }
-  message.channel.send(`RIP u fucked up \n Last clean streak: ${clean}`).catch(console.error);
   fs.writeFileSync('lastrelapse', new Date())
+  message.channel.send(`RIP u fucked up \n Last clean streak: ${clean}`).catch(console.error);
 }
