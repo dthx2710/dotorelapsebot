@@ -8,7 +8,7 @@ exports.run = (client, message, args) => {
   message.delete();
   message.channel.send(`Ready for Lahzhada :one::one: eleven   :elephant:elephant? <@&${roleId}>`, {files:["https://cdn.discordapp.com/attachments/221992979441647616/785491693372702750/3ca5136f-ca94-4eee-b03d-f89576c6ea16.png"]})
   .then(setTimeout(()=>{
-      message.channel.send(`:musical_note: Double elephant :elephant: at lazada :musical_note:`)
+      message.channel.send(`:musical_note: Double elephant :elephant::elephant: at lazada :musical_note:`)
     }, 2000)
   )
   .then(setTimeout(()=>{
@@ -16,7 +16,7 @@ exports.run = (client, message, args) => {
     }, 4000)
   )
   .then(setTimeout(()=>{
-      message.channel.send(`:musical_note: Double elephant :elephant: at lazada :musical_note:`)
+      message.channel.send(`:musical_note: Double elephant :elephant::elephant: at lazada :musical_note:`)
     }, 6000)
   )
   .then(setTimeout(()=>{
